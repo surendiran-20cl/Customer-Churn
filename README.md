@@ -34,12 +34,45 @@ The dataset contains customer details such as tenure, monthly charges, contract 
 Install dependencies:
 
  pip install pandas numpy matplotlib seaborn scikit-learn
+ pip install -r requirements.txt
  
 Run the Jupyter Notebook or Python script.
+
+
+
+
+
+
+Run the app:
+
+streamlit run app.py
+
+
+
+
+
 
 📌 Results
 Identified key factors influencing churn.
 Achieved a good accuracy score with Random Forest.
+
+
+# Customer Churn Prediction App
+
+A **Streamlit web app** that predicts customer churn using a **Random Forest model**.
+
+## 🔗 Live Demo
+[Try the app here](https://customer-churn-test.streamlit.app/)
+
+## 📂 Features
+- Single customer prediction (input `Tenure` and `Monthly Charges`).
+- Batch prediction (upload a CSV file).
+- Displays churn probability.
+
+## 🛠️ How to Run Locally
+1. Clone this repo:
+   ```bash
+   git clone https://github.com/surendiran-20cl/Customer-Churn.git
 
 📩 Contact
 For queries, reach out via [surendiran.shanmuga@gmail.com].
